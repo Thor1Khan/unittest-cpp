@@ -118,7 +118,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="2"
-				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_DEPRECATE"
+				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_DEPRECATE;BUIDING_OR_TESTING_UNITEST_LIB"
 				ExceptionHandling="2"
 				RuntimeLibrary="2"
 				UsePrecompiledHeader="0"

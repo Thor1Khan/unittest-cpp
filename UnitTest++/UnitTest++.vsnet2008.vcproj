@@ -105,7 +105,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="1"
-				PreprocessorDefinitions="WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE"
+				PreprocessorDefinitions="WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;BUIDING_OR_TESTING_UNITEST_LIB"
 				ExceptionHandling="2"
 				RuntimeLibrary="2"
 				UsePrecompiledHeader="0"
@@ -124,6 +124,7 @@
 			/>
 			<Tool
 				Name="VCLibrarianTool"
+				OutputFile="$(OutDir)\unittest-cpp.lib"
 			/>
 			<Tool
 				Name="VCALinkTool"
